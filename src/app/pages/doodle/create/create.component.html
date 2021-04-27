@@ -1,1 +1,34 @@
-<p>create works!</p>
+<div class="step-title">
+    <span>STEP 1 OF 4</span>
+    <h4>What’s the occasion?</h4>
+</div>
+
+<div class="step-content">
+
+    <mat-form-field class="example-full-width">
+        <mat-icon matPrefix>short_text</mat-icon>
+        <mat-label>Title</mat-label>
+        <input type="text" matInput placeholder="Enter title" required>
+        <!-- <mat-icon matSuffix>mode_edit</mat-icon> -->
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+        <mat-icon matPrefix>room</mat-icon>
+        <mat-label> <small>Add location</small> </mat-label>
+        <input type="text" matInput placeholder="Add location">
+        <!-- <mat-icon matSuffix>mode_edit</mat-icon> -->
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+        <mat-icon matPrefix>subject</mat-icon>
+        <mat-label> <small>Add note</small> </mat-label>
+        <input type="text" matInput placeholder="Add note">
+        <!-- <mat-icon matSuffix>mode_edit</mat-icon> -->
+    </mat-form-field>
+
+</div>
+
+<div class="doodle-router">
+    <!-- <mat-button-toggle>
+        <mat-icon>navigate_before</mat-icon>
+    </mat-button-toggle> -->
+    <button mat-flat-button color="primary" routerLink="options">Continue</button>
+</div>

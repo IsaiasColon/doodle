@@ -1,0 +1,119 @@
+<div class="step-title">
+    <span>STEP 3 OF 4</span>
+    <h4>Poll settings</h4>
+</div>
+
+<div class="step-content">
+
+    <div id="free-settings" class="settings-list">
+
+        <mat-selection-list>
+            <mat-list-option *ngFor="let item of settingsList">
+              
+                <div class="list-option-container">
+                    <div class="icon-description">
+                        <button mat-mini-fab color="primary" disabled aria-label="Example icon button with a delete icon">
+                            <mat-icon>{{ item.icon }}</mat-icon>
+                        </button>
+                    </div>
+                    <div class="info-container">
+                        <h5>{{ item.title }}</h5>
+                        <p>{{ item.text }}</p>
+                    </div>
+                </div>
+
+            </mat-list-option>
+          </mat-selection-list>
+
+    </div>
+
+    <div id="premium-settings" class="settings-list">
+        
+        <div class="setting">
+
+            <div class="setting-title">
+                <mat-icon color="accent">star</mat-icon>
+                <h4>Unlock with Premium</h4>
+            </div>
+
+        </div>
+        <div class="setting">
+            
+            <div class="list-option-container">
+                <div class="icon-description">
+                    <button mat-mini-fab color="primary" disabled aria-label="Example icon button with a delete icon">
+                        <mat-icon>email</mat-icon>
+                    </button>
+                </div>
+                <div class="info-container">
+                    <h5>Set deadline</h5>
+                    <p>Set a deadline to receive votes in time. After the deadline, no more votes is allowed</p>
+                </div>
+                
+                <mat-selection-list>
+                    <mat-list-option>
+                        
+                        <input type="date" matInput>
+                        
+                    </mat-list-option>
+                  </mat-selection-list>
+            </div>
+
+        </div>
+        <div class="setting">
+            
+            <div class="list-option-container">
+                <div class="icon-description">
+                    <button mat-mini-fab color="primary" disabled aria-label="Example icon button with a delete icon">
+                        <mat-icon>email</mat-icon>
+                    </button>
+                </div>
+                <div class="info-container">
+                    <h5>Set deadline</h5>
+                    <p>Set a deadline to receive votes in time. After the deadline, no more votes is allowed</p>
+                </div>
+                
+                <mat-selection-list>
+                    <mat-list-option>
+                        
+                        <input type="date" matInput>
+                        
+                    </mat-list-option>
+                  </mat-selection-list>
+            </div>
+
+        </div>
+        <div class="setting">
+            
+            <div class="list-option-container">
+                <div class="icon-description">
+                    <button mat-mini-fab color="primary" disabled aria-label="Example icon button with a delete icon">
+                        <mat-icon>email</mat-icon>
+                    </button>
+                </div>
+                <div class="info-container">
+                    <h5>Set deadline</h5>
+                    <p>Set a deadline to receive votes in time. After the deadline, no more votes is allowed</p>
+                </div>
+                
+                <mat-selection-list>
+                    <mat-list-option>
+                        
+                        <input type="date" matInput>
+                        
+                    </mat-list-option>
+                  </mat-selection-list>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="doodle-router">
+    <button mat-flat-button color="primary" routerLink="/create/initiator" >Continue</button>
+    <button mat-stroked-button routerLink="/create/options">
+        <mat-icon>navigate_before</mat-icon>
+    </button>
+</div>

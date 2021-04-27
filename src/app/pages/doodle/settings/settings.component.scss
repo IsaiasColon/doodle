@@ -1,0 +1,141 @@
+
+.step-title {
+  text-align: center;
+  padding: 15px  0;
+  // background-color: cadetblue;
+}
+  
+  .step-title span {
+    color: rgb(51, 51, 51);
+    font-size: 9pt;
+    font-weight: 500;
+  }
+  
+  .step-title h4 {
+    color: rgb(51, 51, 51);
+    margin: 0;
+    font-size: 18pt;
+    font-weight: 400;
+  }
+
+  .step-content {
+    // background-color: darkseagreen;
+    padding: 15px 5%;
+  }
+
+  .settings-list {
+    width: 50%;
+    box-sizing: content-box;
+    box-sizing: border-box;
+    display: inline-grid;
+    // background-color: wheat;
+    // min-height: 300px;
+  }
+
+  .mat-selection-list {
+    padding: 0 5%;
+    // background-color: crimson;
+  }
+
+  .mat-list-option {
+    // background-color: cyan;
+    height: auto !important;
+    border-bottom: 1px solid rgb(210, 210, 210);
+  }
+
+  .mat-list-option:last-child {
+    border: none;
+  }
+
+.list-option-container {
+  // background-color: bisque;
+  padding: 15px 0 !important;
+}
+
+  .icon-description {
+    float: left;
+    width: auto;
+    // background-color: red;
+    // margin: 5px 0 0 0;
+    // display: flex;
+  }
+
+.icon-description button {
+  vertical-align: middle;
+}
+
+.info-container {
+  width: auto;
+  max-width: 78%;
+  padding: 0 0 0 6%;
+  // background-color: rosybrown;
+  float: left;
+}
+
+.info-container h5 {
+  padding: 0 !important;
+  margin: 0 0 2px 0;
+  font-weight: 500;
+}
+
+.info-container p {
+  margin: 0;
+  font-size: 9pt;
+  color: rgb(51, 51, 51);
+}
+
+#premium-settings {
+  border: 2px solid#f7be00;
+}
+
+.setting {
+  min-height: 50px;
+  height: auto;
+  width: 100%;
+  border-bottom: 1px solid #f7be00;
+  background-color: #fefaeb;
+  margin: 0;
+  padding: 0;
+}
+
+.setting .setting-title {
+  margin: 0;
+  padding: 16px 0;
+  text-align: center;
+  width: 100%;
+  // background-color: red;
+}
+
+.setting-title mat-icon {
+  font-size: 12pt;
+  display: inline;
+  width: auto;
+  height: auto;
+  margin: 0 5px;
+}
+
+.setting-title h4 {
+  // background-color: red;
+  color: #2573e8;
+  font-size: 10pt;
+  font-weight: 500;
+  display: inline;
+}
+
+.setting .list-option-container{
+  // background-color: burlywood;
+  margin: 10px;
+}
+
+.doodle-router {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid rgb(210, 210, 210);
+  // left: 0;
+}
+
+.doodle-router button {
+  margin: 10px;
+  float: right;
+}

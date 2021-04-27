@@ -18,15 +18,20 @@
     font-weight: 400;
   }
 
-  .mat-tab-group {
-    margin-bottom: 48px;
+  .step-content {
+    width: 80%;
+    min-width: 480px;
+    margin: auto;
   }
 
-.mat-tab-container {
-  width: 100%;
-  min-height: 100px;
-  // background-color: blue;
-}
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .example-full-width mat-icon {
+      padding-right: 10px;
+      color: gray;
+  }
 
 
 .doodle-router {

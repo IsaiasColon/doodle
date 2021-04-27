@@ -1,1 +1,29 @@
-<p>options works!</p>
+<div class="step-title">
+    <span>STEP 2 OF 4</span>
+    <h4>What are the options?</h4>
+</div>
+
+<div class="step-content">
+
+    <mat-tab-group mat-align-tabs="center">
+        <mat-tab label="Month">
+            <app-month></app-month>
+        </mat-tab>
+        <mat-tab label="Week">
+            <app-week></app-week>
+        </mat-tab>
+        <mat-tab label="Text">
+            <div class="mat-tab-container">
+                <app-text></app-text>
+            </div>
+        </mat-tab>
+      </mat-tab-group>
+
+</div>
+
+<div class="doodle-router">
+    <button mat-flat-button color="primary" routerLink="/create/settings" >Continue</button>
+    <button mat-stroked-button routerLink="/create">
+        <mat-icon>navigate_before</mat-icon>
+    </button>
+</div>
